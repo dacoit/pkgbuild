@@ -6,7 +6,7 @@
 # Contributor: Tim Zebulla <amon at faumrahrer dot de>
 
 pkgname=weechat-git
-pkgver=1.3.6.g99580f8
+pkgver=1.3.103.g99ebcca
 pkgver(){
     cd $pkgname
     git describe --tags --long | sed 's/-/./g;s/^v//'
